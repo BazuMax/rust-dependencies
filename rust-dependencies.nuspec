@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>rust-dependencies</id>
+    <version>1.0.0</version>
+    <authors>bazumax</authors>
+    <owners>bazumax</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/BazuMax/rust-dependencies</projectUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/57247603?s=200&v=4</iconUrl>
+    <description>Rust dependencies for plugin development</description>
+    <releaseNotes>First try.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+  <files>
+    <file src="src\*.*" target="lib\net48\" />
+  </files>
+</package>
